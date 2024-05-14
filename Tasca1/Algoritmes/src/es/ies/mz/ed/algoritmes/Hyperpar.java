@@ -18,6 +18,13 @@ public class Hyperpar {
      */
     public boolean esHyperpar(long numero){
         boolean esHyper = true;
+        String[] numPrtes = String.valueOf(numero).split("");
+        for (String c:numPrtes) {
+            if (Integer.parseInt(c) %2 != 0){
+                esHyper = false;
+                break;
+            }
+        }
         return esHyper;
     }
 
