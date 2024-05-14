@@ -15,4 +15,19 @@ class HyperparTest {
     public void testCon2568(){
         assertFalse(hy.esHyperpar(2568));
     }
+
+    @Test
+    public void testCon2468(){
+        assertTrue(hy.esHyperpar(2468));
+    }
+
+    @Test
+    public void testCon00022(){
+        assertTrue(hy.esHyperpar(Long.parseLong("00022")));
+    }
+
+    @Test
+    public void testCon00012(){
+        assertFalse(hy.esHyperpar(Long.parseLong("00012")));
+    }
 }
