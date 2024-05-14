@@ -1,4 +1,4 @@
-package Hyperpar;
+package es.ies.mz.ed.algoritmes;
 
 /**
  * Clase que contiene el metodo para averiguar si un numero es hyperpar o no
@@ -16,7 +16,7 @@ public class Hyperpar {
      * @param numero numero que recibe el metdo para averguar si es hyperpar o no.
      * @return devuelver true si el numero es hyperpar y false si no lo es.
      */
-    public boolean esHyperpar(int numero){
+    public boolean esHyperpar(long numero){
         boolean esHyper = true;
         return esHyper;
     }
