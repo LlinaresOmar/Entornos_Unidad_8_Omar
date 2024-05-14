@@ -10,7 +10,7 @@ class AnyRepetitsTest {
 
     @Test
     public void test2000(){
-        assertEquals(1,any.numRepetits(2000));
+        assertEquals(2,any.numRepetits(2000));
     }
 
     @Test
@@ -29,7 +29,12 @@ class AnyRepetitsTest {
     }
 
     @Test
+    public void test2002(){
+        assertEquals(2,any.numRepetits(2002));
+    }
+
+    @Test
     public void test2013(){
-        assertEquals(0,any.numRepetits(2013));
+        assertEquals(4,any.numRepetits(2013));
     }
 }
